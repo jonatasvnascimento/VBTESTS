@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class frmCalculoKM
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -125,7 +125,7 @@ Partial Class Form1
         Calcular.Text = "Calcular"
         Calcular.UseVisualStyleBackColor = True
         ' 
-        ' Form1
+        ' frmCalculoKM
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -142,7 +142,8 @@ Partial Class Form1
         Controls.Add(KMIni)
         Controls.Add(Label1)
         Controls.Add(lbl1)
-        Name = "Form1"
+        Name = "frmCalculoKM"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()

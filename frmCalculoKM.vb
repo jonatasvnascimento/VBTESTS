@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmCalculoKM
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         KMIni.Text = 0
         MTIni.Text = 0

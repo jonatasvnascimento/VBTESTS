@@ -8,4 +8,8 @@ Public Class Home
     Private Sub btnSplitData_Click(sender As Object, e As EventArgs) Handles btnSplitData.Click
         frmSplitData.Show()
     End Sub
+
+    Private Sub btnSubstringFileName_Click(sender As Object, e As EventArgs) Handles btnSubstringFileName.Click
+        frmSubstringGetFileName.Show()
+    End Sub
 End Class

@@ -25,6 +25,7 @@ Partial Class Home
         ListBox1 = New ListBox()
         btnCalculoKM = New Button()
         btnSplitData = New Button()
+        btnSubstringFileName = New Button()
         SuspendLayout()
         ' 
         ' ListBox1
@@ -54,12 +55,22 @@ Partial Class Home
         btnSplitData.Text = "SplitData"
         btnSplitData.UseVisualStyleBackColor = True
         ' 
+        ' btnSubstringFileName
+        ' 
+        btnSubstringFileName.Location = New Point(203, 104)
+        btnSubstringFileName.Name = "btnSubstringFileName"
+        btnSubstringFileName.Size = New Size(134, 40)
+        btnSubstringFileName.TabIndex = 3
+        btnSubstringFileName.Text = "SubstringFileName"
+        btnSubstringFileName.UseVisualStyleBackColor = True
+        ' 
         ' Home
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(800, 450)
+        Controls.Add(btnSubstringFileName)
         Controls.Add(btnSplitData)
         Controls.Add(btnCalculoKM)
         Controls.Add(ListBox1)
@@ -72,4 +83,5 @@ Partial Class Home
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents btnCalculoKM As Button
     Friend WithEvents btnSplitData As Button
+    Friend WithEvents btnSubstringFileName As Button
 End Class

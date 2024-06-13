@@ -26,6 +26,7 @@ Partial Class Home
         btnCalculoKM = New Button()
         btnSplitData = New Button()
         btnSubstringFileName = New Button()
+        btnEpochUnix = New Button()
         SuspendLayout()
         ' 
         ' ListBox1
@@ -64,12 +65,22 @@ Partial Class Home
         btnSubstringFileName.Text = "SubstringFileName"
         btnSubstringFileName.UseVisualStyleBackColor = True
         ' 
+        ' btnEpochUnix
+        ' 
+        btnEpochUnix.Location = New Point(203, 150)
+        btnEpochUnix.Name = "btnEpochUnix"
+        btnEpochUnix.Size = New Size(134, 40)
+        btnEpochUnix.TabIndex = 4
+        btnEpochUnix.Text = "Data Epoch Unix"
+        btnEpochUnix.UseVisualStyleBackColor = True
+        ' 
         ' Home
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(800, 450)
+        Controls.Add(btnEpochUnix)
         Controls.Add(btnSubstringFileName)
         Controls.Add(btnSplitData)
         Controls.Add(btnCalculoKM)
@@ -84,4 +95,5 @@ Partial Class Home
     Friend WithEvents btnCalculoKM As Button
     Friend WithEvents btnSplitData As Button
     Friend WithEvents btnSubstringFileName As Button
+    Friend WithEvents btnEpochUnix As Button
 End Class

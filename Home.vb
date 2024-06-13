@@ -12,4 +12,8 @@ Public Class Home
     Private Sub btnSubstringFileName_Click(sender As Object, e As EventArgs) Handles btnSubstringFileName.Click
         frmSubstringGetFileName.Show()
     End Sub
+
+    Private Sub btnEpochUnix_Click(sender As Object, e As EventArgs) Handles btnEpochUnix.Click
+        frmEpochUnixConvert.Show()
+    End Sub
 End Class
